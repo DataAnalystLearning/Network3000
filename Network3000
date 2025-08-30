@@ -1,7 +1,7 @@
-        # Replace the existing show_topology method with this enhanced version
-
     def show_topology(self):
         """Show enhanced topology map with different shapes, sizes, and colors"""
+        import time
+        import os
         # First, ensure we have discovered hosts
         if not self.discovered_hosts:
             messagebox.showwarning("Warning", "No network scan data available. Please run a scan first.")
@@ -1019,4 +1019,3 @@
             "Host (Filtered/Mobile)": {"color": "#95A5A6", "icon": "❓", "priority": 11},
             "Unknown": {"color": "#BDC3C7", "icon": "❓", "priority": 12}
         }
-  
