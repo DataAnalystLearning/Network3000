@@ -1,4 +1,4 @@
-    def show_topology(self):
+def show_topology(self):
         """Show enhanced topology map with different shapes, sizes, and colors"""
         import time
         import os
